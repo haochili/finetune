@@ -2,9 +2,9 @@
 My program is designed to used the past 50 years of SPY daily dataset downloaded from yahoo finance, to predict the next day's stock price. 
 
 ## Dataset handling: 
--### Input features: 
+- Input features: 
 I tried to use the similar method shown in lumiwealth machine learning strategy to add RSI, MACD... indicators, together with price, pre_1_day price, pre_2.....26_day price as input features.   
--### Labels:
+- Labels:
 I used 'tomr' column as my labels/output feature. 'tomr' data is the shifted next day's 'adj_close' price data. 
 
 
